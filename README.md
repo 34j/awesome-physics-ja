@@ -24,7 +24,7 @@
 [^4]: <https://storytellphys.wordpress.com/author-bio/>
 
 ## 数式を正しく反転しダークモードで表示できる拡張機能
-数式は通常背景が透明であり、ほとんどの拡張機能では反転すべき画像として認識されない。そのため、cssを変更する必要がある。
+数式は通常背景が透明であり、ほとんどの拡張機能では反転すべき画像として認識されない。そのため、数式を直接生成しておらず画像を使用している一部のサイトでは、cssを変更する必要がある。
 ```
 img {
    -webkit-filter: invert(1);
@@ -32,10 +32,25 @@ img {
 }
 ```
 ### cssを変更できる拡張機能の例
-- [Dark Mode - Night Eye](https://chrome.google.com/webstore/detail/dark-mode-night-eye/alncdjedloppbablonallfbkeiknmkdi)
--- Custom Code に上のスクリプトを入力すると、サイトごとに設定が可能
 - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
--- 開発者モードを開き、必要なサイトの部分で"CSS"の後ろに上のスクリプトを入力する。そこそこ面倒。
+   - 開発者ツールを開き、以下のコードを最後に追加し、Applyを押す。
+<!---アルファベット順に並び替えられるため、後に編集しやすくするためにzzz.zzzを追加したが、削除しても良い。--->
+```
+
+================================
+
+nagatabi-p.jimdofree.com
+storytellphys.wordpress.com
+
+CSS
+img {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+}
+```
+- [Dark Mode - Night Eye](https://chrome.google.com/webstore/detail/dark-mode-night-eye/alncdjedloppbablonallfbkeiknmkdi)
+   - Custom Code に上のスクリプトを入力すると、サイトごとに設定が可能だが、ro版を購入しなければホワイトリスト機能が使えないため、他の拡張機能を使っている場合、競合する可能性がある。
+
 ### cssを変更する必要のない拡張機能（非推奨）
 - [Dark mode / night reader](https://chrome.google.com/webstore/detail/dark-mode-night-reader/hmafjphdklmdjfcnljjeonfpgafanjjc)
 ### 表示できない
