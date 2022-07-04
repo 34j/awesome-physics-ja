@@ -5,10 +5,10 @@
 | サイト名                                                                                                 | 著者        | 学位                             | 備考                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------- | ----------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [物理とはずがたり – 物理学を学びたい人に向けて](https://storytellphys.wordpress.com/)                    | QuantumAtsu | 修士（理学）/物理学/京都大学[^4] | 隠れた名サイト。                                                                                                                                                          |
-| [らむねの物理法則](https://ramune-physics.blogspot.com/p/index.html)                                     | ?           |                                  | 隠れた名サイト。                                                                                                                                                          |
+| [らむねの物理法則](https://ramune-physics.blogspot.com/p/index.html)                                     | ?           |  (学部生（工学）)[^5]/?/?                            | 隠れた名サイト。                                                                                                                                                          |
 | [長旅Pの物理メモ](https://nagatabi-p.jimdofree.com/)                                                     | 長旅P       | 修士（理学）[^2]/物理学/?        | 各回10分程度、全10回程度の簡潔な解説動画がYoutubeおよびニコニコ動画にアップロードされており、有名。試験対策としてはやや不足している。 |
-| [ホーム - Understanding Theory of Relativity](https://home.hirosaki-u.ac.jp/relativity/)                 | 葛西真寿    |                                  | 相対論限定。                                                                                                                                                              |
-| [武内　修 - 武内＠筑波大](https://dora.bk.tsukuba.ac.jp/~takeuchi/?%E6%AD%A6%E5%86%85%E3%80%80%E4%BF%AE) | 武内修      |                                  | 講義用。量子力学、電磁気学限定。                                                                                                                                                                  |
+| [ホーム - Understanding Theory of Relativity](https://home.hirosaki-u.ac.jp/relativity/)                 | 葛西真寿    | 博士（理学）/宇宙物理学/広島大学[^7]                                 | 相対論限定。                                                                                                                                                              |
+| [武内　修 - 武内＠筑波大](https://dora.bk.tsukuba.ac.jp/~takeuchi/?%E6%AD%A6%E5%86%85%E3%80%80%E4%BF%AE) | 武内修      | 博士（工学）/薄膜・表面界面物性/東京大学[^6]                                | 講義用。量子力学、電磁気学限定。                                                                                                                                                                  |
 | [物理メモ](https://butsurimemo.com/)                                                                     | ?           | ?                                | ブログ風。これだけでは試験対策としては不足。                                                                                                                                |
 
 | サイト名                                                                                                                | 著者      | 学位                                | 備考                                                                                   |
@@ -22,6 +22,9 @@
 [^2]: <https://twitter.com/NagatabiP/status/1331080982414323712?s=20&t=kEy30ufi9nPZAo6AAi9b9g>
 [^3]: <https://web.archive.org/web/20080509101159/http://home.p07.itscom.net/strmdrf/profile.htm>
 [^4]: <https://storytellphys.wordpress.com/author-bio/>
+[^5]: https://twitter.com/ramune_physics
+[^6]: https://trios.tsukuba.ac.jp/researcher/0000000689
+[^7]: https://hue2.jm.hirosaki-u.ac.jp/html/569_ja.html https://researchmap.jp/read0167806
 
 ## 数式を正しく反転しダークモードで表示できる拡張機能
 数式は通常背景が透明であり、ほとんどの拡張機能では反転すべき画像として認識されない。そのため、数式を直接生成しておらず画像を使用している一部のサイトでは、cssを変更する必要がある。
