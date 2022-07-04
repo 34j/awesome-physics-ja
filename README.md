@@ -22,3 +22,25 @@
 [^2]: <https://twitter.com/NagatabiP/status/1331080982414323712?s=20&t=kEy30ufi9nPZAo6AAi9b9g>
 [^3]: <https://web.archive.org/web/20080509101159/http://home.p07.itscom.net/strmdrf/profile.htm>
 [^4]: <https://storytellphys.wordpress.com/author-bio/>
+
+## 数式を正しく反転しダークモードで表示できる拡張機能
+数式は通常背景が透明であり、ほとんどの拡張機能では反転すべき画像として認識されない。そのため、cssを変更する必要がある。
+```
+img {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+}
+```
+### cssを変更できる拡張機能の例
+- [Dark Mode - Night Eye](https://chrome.google.com/webstore/detail/dark-mode-night-eye/alncdjedloppbablonallfbkeiknmkdi)
+-- Custom Code に上のスクリプトを入力すると、サイトごとに設定が可能
+- [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+-- 開発者モードを開き、必要なサイトの部分で"CSS"の後ろに上のスクリプトを入力する。そこそこ面倒。
+### cssを変更する必要のない拡張機能（非推奨）
+- [Dark mode / night reader](https://chrome.google.com/webstore/detail/dark-mode-night-reader/hmafjphdklmdjfcnljjeonfpgafanjjc)
+### 表示できない
+- [Darkling Dark mode](https://chrome.google.com/webstore/detail/darkling-dark-mode/enofnamganfiiidbpcmcihkihfmfpobo)
+//- [Dark Mode](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj)
+//- [Super Dark Mode](https://chrome.google.com/webstore/detail/super-dark-mode/nlgphodeccebbcnkgmokeegopgpnjfkc/)
+//- [Dark Mode For Chrome]()
+
