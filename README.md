@@ -40,7 +40,8 @@ img {
 - [Dark mode / night reader](https://chrome.google.com/webstore/detail/dark-mode-night-reader/hmafjphdklmdjfcnljjeonfpgafanjjc)
 ### 表示できない
 - [Darkling Dark mode](https://chrome.google.com/webstore/detail/darkling-dark-mode/enofnamganfiiidbpcmcihkihfmfpobo)
-//- [Dark Mode](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj)
-//- [Super Dark Mode](https://chrome.google.com/webstore/detail/super-dark-mode/nlgphodeccebbcnkgmokeegopgpnjfkc/)
-//- [Dark Mode For Chrome]()
-
+<!---
+- [Dark Mode](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj)
+- [Super Dark Mode](https://chrome.google.com/webstore/detail/super-dark-mode/nlgphodeccebbcnkgmokeegopgpnjfkc/)
+- [Dark Mode For Chrome]()
+--->
